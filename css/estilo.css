@@ -1,10 +1,25 @@
-.div1{
-    background-color: aqua;
-    height: 120px;
+.div1 {
+  background-color: rgb(68, 68, 68);
+  height: 120px;
 }
-.div2{
-    background-color: bisque;
-    width: 300px;
-    height: 120px;
-    margin: 0 228px;
+.div2 {
+  background-color: rgb(199, 199, 199);
+  width: 300px;
+  height: 120px;
+  margin-left: 228px;
+  border-radius: 10px;
+  text-align: center;
+}
+.menu {
+  background-color: rgb(156, 156, 156);
+  width: 750px;
+  height: 120px;
+  
+  justify-content: center;
+}
+.div1 {
+  display: flex;
+  align-items: center;
+  gap: 433px;
+  flex-direction: row;
 }
