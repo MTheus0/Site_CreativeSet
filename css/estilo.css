@@ -15,7 +15,11 @@
 .header img{
   width: 150px;
   border-radius: 20px;
-  margin-left: 228px;
+  margin-left: 91px;
+}
+
+.header {
+  background-color: white;
 }
 
 .header{
@@ -40,17 +44,33 @@
 .sec{
   background-color: #42164b;
   height: 90px;
-  width: 550px;
-  margin-right: 5px;
+  width: 200px;
+  margin-right: 64px;
   border-radius: 5px;
   text-align: center;
   align-content: center;
 }
 
 .btnRedondo{
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
   background: black;
-  margin: 0 29px;
+  margin: 11px;
+}
+
+.main{
+  justify-items: center;
+  justify-items: center;
+}
+
+.banner{
+  width: 1351px;
+  height: 546px;
+}
+
+.middle{
+  background-color: #42164b;
+  height: 368px;
+  width: 920px;
 }
