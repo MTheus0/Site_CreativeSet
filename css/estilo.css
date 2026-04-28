@@ -165,4 +165,149 @@ body {
   width: 559.69px;
   height: 184px;
 }
+
+.menu-toggle {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+/* Responsividade */
+
+/* Celular */
+@media (max-width: 420px) {
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
  
+.header a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ 
+.header img {
+  width: 100px;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+ 
+.sec {
+  background-color: #42164b;
+  height: 90px;
+  width: 30px;
+  margin-right: 0;
+  border-radius: 5px;
+  text-align: center;
+  align-content: center;
+}
+ 
+.btnRedondo {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: var(--laranja);
+  margin: 11px;
+}
+ 
+.main {
+  justify-items: center;
+}
+ 
+.banner {
+  width: 100%px;
+  height: 400px;
+}
+ 
+.bannerPlaceholder {
+  background-color: aqua;
+  width: 100%;
+  height: 400px;
+}
+ 
+.middle {
+  margin-top: 22px;
+  background-color: #42164b;
+  height: 368px;
+  width: 920px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 31.3px;
+}
+ 
+.quadrado2 {
+  background-color: #e99856;
+  width: 250.27px;
+  height: 311px;
+}
+ 
+.quadrado1 {
+  background-color: #4216;
+  height: 311px;
+  width: 559.61px;
+  justify-items: center;
+}
+ 
+.metodologia {
+  background-color: var(--roxo-escuro);
+  width: 1125.33px;
+  height: 732px;
+  margin-top: 85px;
+  padding-top: 1px;
+  display: flex;
+ 
+}
+ 
+.met {
+  background-color: #A54055;
+  width: 167.91px;
+  height: 42px;
+  margin-left: 51.94px;
+  margin-top: 22px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 50px;
+  color: #fff;
+}
+ 
+.coluna-esquerda {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+ 
+.div1 {
+  background-color: var(--roxo-magenta-escuro);
+  width: 450px;
+  height: 250px;
+  margin-left: 55px;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+ 
+.div2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+ 
+.item {
+  background-color: #A54055;
+  width: 559.69px;
+  height: 184px;
+}
+}
