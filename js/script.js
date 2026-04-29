@@ -7,6 +7,7 @@ const nav = document.querySelector(".nav");
     nav.classList.toggle("active");
   }));
 
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
 const btn = document.getElementById("menu-toggle");
 const menu = document.getElementById("menu");
 

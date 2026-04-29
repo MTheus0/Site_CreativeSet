@@ -71,13 +71,11 @@ body {
   margin: 11px;
 }
 
-.btnRedondo:hover{
-border: #c9691a;
-background: #c9691a;
-transition: 0.5s;
+.btnRedondo:hover {
+  border: #c9691a;
+  background: #c9691a;
+  transition: 0.5s;
 }
-
-
 
 .main {
   justify-items: center;
@@ -175,7 +173,7 @@ transition: 0.5s;
 /* Responsividade */
 
 /* Testando como fazer o menu hamburguer sumir para telas grandes */
-@media (min-width: 1024px) {
+@media (min-width: 800px) {
   .menu-toggle {
     display: none;
   }
@@ -183,11 +181,6 @@ transition: 0.5s;
 
 /* Celular */
 @media (max-width: 420px) {
-  .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
   .menu-toggle {
     position: absolute;
     top: 16px;
@@ -218,12 +211,6 @@ transition: 0.5s;
     display: flex;
   }
 
-  .header a {
-    color: #fff;
-    text-decoration: none;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  }
-
   .header img {
     width: 100px;
     border-radius: 20px;
@@ -243,10 +230,6 @@ transition: 0.5s;
     display: none;
   }
 
-  .main {
-    justify-items: center;
-  }
-
   .banner {
     width: 100%px;
     height: 400px;
@@ -259,16 +242,10 @@ transition: 0.5s;
   }
 
   .middle {
-    margin-top: 22px;
-    background-color: #42164b;
     height: 368px;
-    width: 420px;
+    width: 100%;
     color: #fff;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    gap: 31.3px;
   }
 
   .quadrado2 {
@@ -285,7 +262,7 @@ transition: 0.5s;
 
   .metodologia {
     background-color: var(--roxo-escuro);
-    width: 420px;
+    width: 100%;
     height: 1220px;
     margin-bottom: 20px;
     margin-top: 85px;
@@ -294,17 +271,12 @@ transition: 0.5s;
   }
 
   .met {
-    background-color: #a54055;
     width: 167.91px;
-    height: 42px;
     margin-left: 0;
     margin-top: 22px;
     margin-bottom: 10px;
-    font-size: 20px;
     text-align: center;
     align-self: center;
-    border-radius: 50px;
-    color: #fff;
   }
 
   .coluna-esquerda {
@@ -318,25 +290,19 @@ transition: 0.5s;
     max-width: 200px;
     height: 150px;
     margin-left: 0;
-    color: #fff;
-    text-align: center;
-    justify-content: center;
-    align-content: center;
-    margin-top: 20px;
     margin-right: 0;
+    margin-top: 20px;
   }
 
   .div2 {
     display: flex;
     flex-direction: column;
-    gap: 10px;
     max-width: 220px;
   }
 
   .item {
     background-color: #a54055;
     max-width: 380px;
-    height: 184px;
     align-self: center;
   }
 
