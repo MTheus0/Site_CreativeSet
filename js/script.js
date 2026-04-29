@@ -6,3 +6,10 @@ const nav = document.querySelector(".nav");
   addEventListener("click", () => {
     nav.classList.toggle("active");
   }));
+
+const btn = document.getElementById("menu-toggle");
+const menu = document.getElementById("menu");
+
+btn.addEventListener("click", () => {
+  menu.classList.toggle("ativo");
+});
