@@ -71,6 +71,14 @@ body {
   margin: 11px;
 }
 
+.btnRedondo:hover{
+border: #c9691a;
+background: #c9691a;
+transition: 0.5s;
+}
+
+
+
 .main {
   justify-items: center;
 }
