@@ -1,16 +1,9 @@
 // Script para funcionar o hamgurguer
-const btn = document.querySelector(".menu-toggle");
-const nav = document.querySelector(".nav");
+document.addEventListener("DOMContentLoaded", () => {
+  const btn = document.querySelector(".menu-toggle");
+  const menu = document.querySelector(".menu");
 
-(btn,
-  addEventListener("click", () => {
-    nav.classList.toggle("active");
-  }));
-
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~//
-const btn = document.getElementById("menu-toggle");
-const menu = document.getElementById("menu");
-
-btn.addEventListener("click", () => {
-  menu.classList.toggle("ativo");
+  btn.addEventListener("click", () => {
+    menu.classList.toggle("ativo");
+  });
 });
