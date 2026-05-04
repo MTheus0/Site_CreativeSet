@@ -10,42 +10,46 @@
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
 
     <link rel="stylesheet" href="./css/estilo.css" />
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 
     <script src="./js/bootstrap.min.js"></script>
   </head>
 
   <body>
     <header class="header">
-      <img src="./img/CreativeSet Logo 1.png" alt="IMAGEM" />
+      <img src="../Site_CreativeSet/assets/img/Creative Set (Apresentação) (1).png" alt="IMAGEM" />
       <!-- Menu hamburguer -->
       <button class="menu-toggle" aria-label="Menu Mobile">
         <!-- caractere unicode universal que pode representar o menu mobile -->
         &#9776;
       </button>
       <nav class="menu">
-        <a href="">Serviços</a>
-        <a href="">Serviços</a>
-        <a href="">Serviços</a>
-        <a href="">Serviços</a>
-        <a href="">Serviços</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#sobreNos">Sobre Nós</a>
+        <a href="#metodologia">Metodologia</a>
+        <a href="#localizacao">Localização</a>
       </nav>
 
       <nav class="nav">
+        <div class="grupo-direito">
         <section class="sec">
-          <input class="btnRedondo" type="button" />
-
-          <input class="btnRedondo" type="button" />
-          <input class="btnRedondo" type="button" />
-        </section>
+          <button class="btnRedondo" type="button"><img src="../Site_CreativeSet/assets/img/whatsapp-removebg-preview.png" alt=""></button>
+          <button class="btnRedondo" type="button"><img src="../Site_CreativeSet/assets/img/insta-removebg-preview.png" alt=""></button>
+          <button class="btnRedondo" type="button"><img src="../Site_CreativeSet/assets/img/linkedin-removebg-preview.png" alt=""></i></button>
+        </section> 
+        <a id="orcamento" href="#orçamento">Faça seu orçamento</a>
+        </div>
       </nav>
+  
     </header>
 
     <main class="main">
       <section class="bannerPlaceholder">
-        <img class="banner" src="" alt="" />
+    <img id="Banner" src="./assets/img/Banner.png" alt="banner">
       </section>
-      <section class="section">
-        <div id="bloco1">
+      <section id="sobreNos" class="section container py-5">
+        <div class="row">
+        <div id="bloco1" class="col-md-4 mb-4">
           <h1>Missão da Empresa</h1>
           <p>
             A Creative Set trabalha com um atendimento totalmente personalizado,
@@ -58,7 +62,7 @@
             criatividade como base central do trabalho.
           </p>
         </div>
-        <div id="bloco2">
+        <div id="bloco2" class="col-md-4 mb-4">
           <h1>Metas</h1>
           <p>
             A Creative Set estabelece suas metas com foco na estruturação,
@@ -75,9 +79,9 @@
             consistente.
           </p>
         </div>
-        <div id="bloco3">
+        <div id="bloco3" class="col-md-4 mb-4">
           <h1>Tecnologias Utilizadas</h1>
-          <p>
+            <p>
             A Creative Set utiliza tecnologias modernas e confiáveis para
             garantir sites rápidos, seguros e com ótima experiência de
             navegação, sempre focando em resultados de qualidade. Trabalha com
@@ -89,15 +93,16 @@
             inovação, acompanhando as tendências do mercado para desenvolver
             soluções atuais, eficientes e alinhadas às necessidades de cada
             cliente.
-          </p>
+            </p>
+            </div>
         </div>
       </section>
-      <section class="middle">
+      <section id="servicos"class="middle">
         <section class="img"></section>
 
         <section class="quadrado2"></section>
 
-        <section class="quadrado1">
+        <section  class="quadrado1">
           <h1>Nossos Serviços</h1>
 
           <p>
@@ -114,7 +119,7 @@
         </section>
       </section>
 
-      <section class="metodologia">
+      <section id="metodologia" class="metodologia">
         <div class="coluna-esquerda">
           <div class="met">
             <h4>metodologia</h4>
@@ -135,7 +140,7 @@
         </div>
       </section>
     </main>
-    <footer>
+    <footer id="localizacao">
       <div class="form-container">
         <form id="meuForm">
           <div class="row mb-3">
@@ -185,3 +190,4 @@
     <script src="./js/script.js"></script>
   </body>
 </html>
+ 

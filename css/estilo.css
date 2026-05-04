@@ -9,6 +9,9 @@
   font-family: "Poppins";
   src: url(../assets/fonts/Poppins-Light.otf);
 }
+html {
+  scroll-behavior: smooth;
+}
 :root {
   --rosa: #b45355;
   --roxo: #1a1836;
@@ -21,12 +24,24 @@
 body {
   background-color: var(--roxo);
 }
+/* .header {
+  background: #1a1836;
+  color: #fff;
+  /* padding: 16px; */
+/* } */ 
 
 .header {
   display: flex;
-  align-items: center;
+  align-items: center; /* centraliza verticalmente */
   justify-content: space-between;
   height: 95px;
+  padding: 0 40px; /* evita usar margin manual no logo */
+}
+
+.header .menu {
+  display: flex;
+  align-items: center;
+  gap: 21px; /* aqui define exatamente a distância entre os links */
 }
 
 .header a {
@@ -36,15 +51,9 @@ body {
 }
 
 .header img {
-  width: 150px;
+  width: 160px;
   border-radius: 20px;
   margin-left: 91px;
-}
-
-.header {
-  background: #1a1836;
-  color: #fff;
-  /* padding: 16px; */
 }
 
 /* .nav{
@@ -57,11 +66,28 @@ body {
   margin: 0 12px;
 }
 
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.grupo-direito {
+  display: flex;
+  align-items: center;
+  gap: 40px; /* distância EXATA  */
+  margin-right: 16px;
+}
+#orcamento {
+  background: var(--laranja);
+  color: #1a1836;
+  font-family: 'Poppins';
+  font-weight: bolder; 
+}
+
 .sec {
-  background-color: #42164b;
+  background-color: #42164B;
   height: 90px;
   width: 200px;
-  margin-right: 64px;
   border-radius: 5px;
   text-align: center;
   align-content: center;
@@ -73,6 +99,15 @@ body {
   border-radius: 50%;
   background: var(--laranja);
   margin: 11px;
+    border: 2px solid var(--roxo-escuro);
+    cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btnRedondo i{
+  color:#1a1836;
+ text-shadow: 
+    0.5px 0 currentColor,
+   -0.5px 0 currentColor;
 }
 
 .btnRedondo:hover {
@@ -86,7 +121,7 @@ body {
 }
 
 .banner {
-  width: 100%px;
+  width: 100%;
   height: 400px;
 }
 
@@ -190,11 +225,26 @@ body {
   background-color: #e4dfcd;
 }
 
+#sobreNos h1{
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+#sobreNos p{
+  text-align: justify;
+  line-height: 1.6;
+}
+
+#sobreNos .col-md-4{
+  padding: 0 20px;
+}
+
 .section {
   display: flex;
-  flex-direction: ;
+  flex-direction: column;
+  /*flex-direction: ;
   padding: ;
-  gap: ;
+  gap: ;*/
   margin-top: 85.57px;
   margin-bottom: 58px;
 }
@@ -214,26 +264,24 @@ body {
   font-family: "Poppins";
   font-weight: 20px;
   color: #fff;
-  
 }
+
 #bloco1 {
   align-items: center;
   justify-content: center;
   justify-items: center;
-  margin-top: 140.57px;
-
 }
+
 #bloco2 {
   align-items: center;
   justify-content: center;
   justify-items: center;
-   margin-top: 140.57px;
 }
+
 #bloco3 {
   align-items: center;
   justify-content: center;
   justify-items: center;
-   margin-top: 140.57px;
 }
 
 /* Responsividade */
